@@ -2,7 +2,7 @@
 
 # Bài tập tổng hợp kết quả học tập 
 
-## PHẦN 1  Các Prompt đọc và xử lý 4 file
+## PHẦN 1 : Các Prompt đọc và xử lý 4 file
 
 ### Prompt 1: Đọc File 1 (Danh sách sinh viên)
 
@@ -56,7 +56,7 @@ Hãy:
 
 ---
 
-## PHẦN 2  Prompt đối chiếu dữ liệu
+## PHẦN 2 : Prompt đối chiếu dữ liệu
 
 ```
 Bây giờ bạn có 4 bảng dữ liệu đã trích xuất:
@@ -79,7 +79,7 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 
 ---
 
-## PHẦN 3  Bảng kết quả tổng hợp 30 sinh viên (mẫu)
+## PHẦN 3 : Bảng kết quả tổng hợp 30 sinh viên (mẫu)
 
 
 | Mã SV | Họ tên | CC | BT | GK | CK | Tổng kết | Kết quả |
@@ -87,7 +87,7 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 | SV001 | Nguyễn Văn An | 9 | 8 | 7 | 6 | 7.0 | Đạt |
 | SV002 | Trần Thị Bình | 8 | 7 | 6 | 5 | 6.0 | Đạt |
 | SV003 | Lê Văn Cường | 10 | 9 | 8 | 7 | 8.0 | Đạt |
-| SV004 | Phạm Thị Dung | 7 | 6 | 5 | 4 | 5.0 | Đạt (biên giới) |
+| SV004 | Phạm Thị Dung | 7 | 6 | 5 | 4 | 5.0 | Đạt  |
 | SV005 | Hoàng Văn Em | **Thiếu** | 8 | 7 | 6 | — | Thiếu dữ liệu |
 | SV006 | Vũ Thị Hà | 8 | **Thiếu** | 7 | 6 | — | Thiếu dữ liệu |
 | SV007 | Bùi Văn Hùng | 9 | 8 | **Thiếu** | 7 | — | Thiếu dữ liệu |
@@ -108,19 +108,20 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 | SV022 | Vũ Văn Zụng | 6 | 5 | 6 | 5 | 5.4 | Đạt |
 | SV023 | Bùi Thị Ánh | 7 | 7 | 6 | 6 | 6.3 | Đạt |
 | SV024 | Trần Thị Bình | 8 | 9 | 7 | 8 | 7.9 | Đạt |
-| SV025 | Nguyễn Văn Dũng | 5 | 6 | 4 | 5 | 4.9 | Chưa đạt (biên giới) |
+| SV025 | Nguyễn Văn Dũng | 5 | 6 | 4 | 5 | 4.9 | Chưa đạt  |
 | SV026 | Trần Thị Giang | 9 | 8 | 9 | 8 | 8.4 | Đạt |
 | SV027 | Lê Văn Hậu | 6 | 6 | 5 | 5 | 5.3 | Đạt |
 | SV028 | Phạm Thị Hương | 7 | 8 | 7 | 8 | 7.6 | Đạt |
 | SV029 | Hoàng Văn Khánh | 4 | 5 | 3 | 4 | 3.9 | Chưa đạt |
 | SV030 | Vũ Thị Linh | 8 | 7 | 8 | 7 | 7.4 | Đạt |
 
----
 
-## PHẦN 4  Báo cáo thống kê tỷ lệ đạt / chưa đạt
+
+
+## PHẦN 4 : Báo cáo thống kê tỷ lệ đạt / chưa đạt
 
 | Chỉ tiêu | Số lượng | Tỷ lệ |
-|----------|----------|-------|
+|--|--|--|
 | Tổng số sinh viên | 30 | 100% |
 | Có đủ dữ liệu | 26 | 86.7% |
 | **Đạt học phần (≥5.0)** | **20** | **66.7% / 76.9%*** |
@@ -137,7 +138,7 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 
 ---
 
-## PHẦN 5  Danh sách trường hợp bất thường
+## PHẦN 5 : Danh sách trường hợp bất thường
 
 | STT | Loại bất thường | Đối tượng | Mô tả | Hành động đề xuất |
 |--|--|--|--|--|
@@ -153,7 +154,7 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 
 ---
 
-## PHẦN 6 — Báo cáo nhận xét tình hình học tập (khoảng 500 từ)
+## PHẦN 6 : Báo cáo nhận xét tình hình học tập (khoảng 500 từ)
 
 ### Tình hình học tập học phần Java cơ bản  Lớp 30 sinh viên
 
