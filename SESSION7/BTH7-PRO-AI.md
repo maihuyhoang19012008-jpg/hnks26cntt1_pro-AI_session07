@@ -75,7 +75,7 @@ Bắt đầu cuộc trò chuyện bằng câu hỏi đầu tiên theo đúng quy
 
 ## PHẦN 3 : Phân tích lỗi trong chương trình ban đầu
 | Dòng | Lệnh | Giá trị trong bộ nhớ | Kiểu dữ liệu |
-|------|------|-----|--------------|
+|--|--|--|--|
 | 1 | `int a, b, c;` | a=?, b=?, c=? (chưa khởi tạo) | `int` |
 | 2 | `int avg;` | avg=? (chưa khởi tạo) | `int` |
 | 3 | `scanf("%d%d%d", &a, &b, &c);` | a=7, b=8, c=9 | `int` |
@@ -90,7 +90,6 @@ Bắt đầu cuộc trò chuyện bằng câu hỏi đầu tiên theo đúng quy
 
 `
 #include <stdio.h>
-
 int main() 
 {
     int a, b, c;
@@ -136,14 +135,14 @@ int s = 100, t = 3;
 int v = s / t;
 printf("%d", v);
 ```
-Kết quả: `33` (sai, vì 100/3 = 33.33 mà 100 và 3 đều là int => cắt mất phần dư 
+Kết quả: `33` (sai, vì 100/3 = 33.33 mà 100 và 3 đều là int) => cắt mất phần dư 
 **đúng **
 ```
 int s = 100, t = 3;
 float v = (float)s / t;
 printf("%.2f", v);
 ```
-Kết quả: `33.33` (đúng, vì ép `s` sang float trước khi chia
+Kết quả: `33.33` (đúng, vì ép `s` sang float trước khi chia)
 
 Kết quả cuối đúng nên thay `int v = s / t;`
 bằng 
