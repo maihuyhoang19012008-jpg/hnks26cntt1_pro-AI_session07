@@ -79,7 +79,7 @@ Bắt đầu cuộc trò chuyện bằng câu hỏi đầu tiên theo đúng quy
 | 1 | `int a, b, c;` | a=?, b=?, c=? (chưa khởi tạo) | `int` |
 | 2 | `int avg;` | avg=? (chưa khởi tạo) | `int` |
 | 3 | `scanf("%d%d%d", &a, &b, &c);` | a=7, b=8, c=9 | `int` |
-| 4 | `a + b + c` | **24** | `int` (cả 3 toán hạng là int  tổng là int) |
+| 4 | `a + b + c` | **24** | `int`   tổng là int) |
 | 5 | `(a + b + c) / 3` | **24 / 3 = 8** | `int` (cả 2 vế là int  **chia nguyên**) |
 | 6 | `avg = ...` | avg = **8** | `int` (chỉ lưu được phần nguyên) |
 | 7 | `printf("%d", avg)` | In ra màn hình: **8** | `%d` diễn giải bộ nhớ của avg dưới dạng số nguyên |
@@ -88,9 +88,9 @@ Bắt đầu cuộc trò chuyện bằng câu hỏi đầu tiên theo đúng quy
 
 ## PHẦN 4  : Code sau khi tự sửa 
 
-
-#include <stdio.h>
 `
+#include <stdio.h>
+
 int main() 
 {
     int a, b, c;
