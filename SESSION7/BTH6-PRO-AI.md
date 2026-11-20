@@ -136,7 +136,7 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 - Sinh viên điểm cao nhất: SV019 (9.3)
 - Sinh viên điểm thấp nhất (có đủ dữ liệu): SV015 (2.0)
 
----
+
 
 ## PHẦN 5 : Danh sách trường hợp bất thường
 
@@ -152,11 +152,11 @@ Hãy thực hiện đối chiếu theo đúng quy tắc sau:
 | 8 | Điểm biên giới trượt | SV025 | Tổng kết 4.9 (chỉ thiếu 0.1) | Ghi chú, đối chiếu lại chấm |
 | 9 | Trùng bản ghi (ví dụ) | SV012 trong File 2 | Xuất hiện 2 lần với BT = 7 và BT = 7.5 | Xác nhận giá trị đúng với giảng viên |
 
----
 
-## PHẦN 6 : Báo cáo nhận xét tình hình học tập (khoảng 500 từ)
 
-### Tình hình học tập học phần Java cơ bản  Lớp 30 sinh viên
+## PHẦN 6 : Báo cáo nhận xét tình hình học tập 
+
+### Tình hình học tập học cơ bản  Lớp 30 sinh viên
 
 Kết quả tổng hợp 30 sinh viên cho thấy tình hình học tập của lớp ở mức khá, nhưng vẫn tồn tại nhiều vấn đề cần lưu ý. 
 - Trong tổng số 30 sinh viên, có 26 em có đủ dữ liệu điểm để xếp loại, chiếm 86,7%; 4 em còn lại bị thiếu một trong bốn đầu điểm và chưa thể kết luận đạt hay chưa đạt.
